@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2023 Amazon.com, Inc. or its affiliates.
-//
-// Author(s):
-//   - Ugur Usug <ugurus@amazon.com>
-
-//! Pointer Authentication Key A for Code Low - EL1
-//!
 //! Holds bits[63:0] of key used for generic pointer authentication code.
 
 use tock_registers::interfaces::{Readable, Writeable};

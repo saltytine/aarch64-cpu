@@ -1,13 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Javier Alvarez <javier.alvarez@allthingsembedded.net>
-
-//! OS Lock Access Register - EL1
-//!
 //! Used to lock or unlock the OS Lock.
 //!
 //! AArch64 System register `OSLAR_EL1` bits \[31:0\] are architecturally mapped to External

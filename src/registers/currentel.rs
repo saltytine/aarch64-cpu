@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Current Exception Level
-//!
 //! Holds the current Exception level.
 
 use tock_registers::{interfaces::Readable, register_bitfields};

@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2019-2023 by the author(s)
-//
-// Author(s):
-//   - Berkus Decker <berkus+github@metta.systems>
-
-//! Secure Configuration Register - EL3, page D12.2.99 of armv8arm.
-//! Defines the configuration of the current Security state. It specifies:
 //! • The Security state of EL0, EL1, and EL2. The Security state is either Secure or Non-secure.
 //! • The Execution state at lower Exception levels.
 //! • Whether IRQ, FIQ, SError interrupts, and External abort exceptions are taken to EL3.

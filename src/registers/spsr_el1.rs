@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Saved Program Status Register - EL1
-//!
 //! Holds the saved process state when an exception is taken to EL1.
 
 use tock_registers::{

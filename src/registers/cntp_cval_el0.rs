@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Counter-timer Physical Timer CompareValue register - EL0
-//!
 //! Holds the compare value for the EL1 physical timer.
 //!
 //! When CNTP_CTL_EL0.ENABLE is 1, the timer condition is met when (CNTPCT_EL0 - CompareValue) is

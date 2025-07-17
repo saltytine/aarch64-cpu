@@ -1,13 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Javier Alvarez <javier.alvarez@allthingsembedded.net>
-
-//! Counter-timer Virtual Timer CompareValue register - EL0
-//!
 //! Holds the compare value for the virtual timer.
 //!
 //! When CNTV_CTL_EL0.ENABLE is 1, the timer condition is met when (CNTVCT_EL0 - CompareValue) is

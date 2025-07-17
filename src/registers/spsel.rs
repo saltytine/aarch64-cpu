@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Stack Pointer Select
-//!
 //! Allows the Stack Pointer to be selected between SP_EL0 and SP_ELx.
 
 use tock_registers::{

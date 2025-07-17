@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Valentin B. <valentin.be@protonmail.com>
-
-//! Domain Access Control Register - EL2
-//!
 //! Allows access to the AArch32 DACR register from AArch64 state only. Its value
 //! has no effect on execution in AArch64 state.
 

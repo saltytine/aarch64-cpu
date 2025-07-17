@@ -1,11 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Jorge Aparicio
-//   - Andre Richter <andre.o.richter@gmail.com>
-
 //! Wrappers around ARMv8-A instructions.
 
 pub mod barrier;

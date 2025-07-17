@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2022-2023 Amazon.com, Inc. or its affiliates.
-//
-// Author(s):
-//   - Ali Saidi <alisaidi@amazon.com>
-
-//! AArch64 Instruction Set Architecture Feature Register 0 - EL1
-//!
 //! Provides information about the implemented instruction set.
 
 use tock_registers::{interfaces::Readable, register_bitfields};

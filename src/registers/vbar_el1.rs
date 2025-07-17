@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Vector Base Address Register - EL1
-//!
 //! Holds the vector base address for any exception that is taken to EL1.
 
 use tock_registers::interfaces::{Readable, Writeable};

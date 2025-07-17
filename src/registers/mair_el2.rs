@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Erik Verbruggen <erik.verbruggen@me.com>
-//   - Bradley Landherr <landhb@users.noreply.github.com>
-
 //! Memory Attribute Indirection Register - EL2
 //!
 //! Provides the memory attribute encodings corresponding to the possible AttrIndx values in a

@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Valentin B. <valentin.be@protonmail.com>
-
-//! Current Cache Size ID Register - EL1
-//!
 //! Provides information about the architecture of the currently selected cache.
 
 use tock_registers::{

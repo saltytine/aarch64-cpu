@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Berkus Decker <berkus+github@metta.systems>
-//   - Bradley Landherr <landhb@users.noreply.github.com>
-
 //! Exception Syndrome Register - EL2
 //!
 //! Holds syndrome information for an exception taken to EL2.

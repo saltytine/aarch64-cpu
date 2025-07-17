@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Valentin B. <valentin.be@protonmail.com>
-
-//! Cache Size Selection Register - EL1
-//!
 //! Selects the current Cache Size ID Register, CCSIDR_EL1, by specifying the
 //! required cache level and the cache type (either instruction or data cache).
 

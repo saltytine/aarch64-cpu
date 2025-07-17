@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2022 Amazon.com, Inc. or its affiliates.
-// Author(s):
-//   - Javi Merino <javmer@amazon.com>
-
-//! Software Thread ID Register - EL2.
-//!
-//! Provides a location where software executing at EL2 can store thread identifying information,
 //! for OS management purposes.
 
 use tock_registers::interfaces::{Readable, Writeable};

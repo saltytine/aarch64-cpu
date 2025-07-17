@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2020-2023 by the author(s)
-//
-// Author(s):
-//   - Chris Brown <ccbrown112@gmail.com>
-
-//! Debug Data Transfer Register, half-duplex
-//!
 //! Transfers 64 bits of data between the PE and an external debugger. Can transfer both ways using
 //! only a single register.
 

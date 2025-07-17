@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Main ID Register - EL1
-//!
 //! Provides identification information for the processor, including an implementer code for the
 //! device and a device ID number.
 

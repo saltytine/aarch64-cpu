@@ -1,13 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Bradley Landherr <landhb@users.noreply.github.com>
-
-//! System Control Register - EL2
-//!
 //! Provides top level control of the system, including its memory system, at EL2.
 
 use tock_registers::{

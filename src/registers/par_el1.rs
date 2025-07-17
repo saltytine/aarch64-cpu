@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2021-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Physical Address Register - EL1
-//!
 //! Returns the output address (OA) from an Address translation instruction that executed
 //! successfully, or fault information if the instruction did not execute successfully.
 

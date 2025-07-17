@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Bradley Landherr <landhb@users.noreply.github.com>
-//   - Javier Alvarez <javier.alvarez@allthingsembedded.com>
-
 //! Hypervisor Configuration Register - EL2
 //!
 //! Provides configuration controls for virtualization, including defining
@@ -127,7 +118,7 @@ register_bitfields! {u64,
             DisableTrapGeneralExceptionsToEl2 = 0,
             EnableTrapGeneralExceptionsToEl2 = 1,
         ],
-       
+
         ///Traps SMC instruction. The values are:
         ///     0    SMC instruction is not trapped.
         ///     1    SMC instruction executed in EL1 is trapped to EL2 for AArch32 and AArch64 states.

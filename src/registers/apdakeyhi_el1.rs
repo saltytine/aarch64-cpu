@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2023 Amazon.com, Inc. or its affiliates.
-//
-// Author(s):
-//   - Ugur Usug <ugurus@amazon.com>
-
-//! Pointer Authentication Key A for Data High - EL1
-//!
 //! Holds bits[127:64] of key A used for authentication of data pointer values.
 
 use tock_registers::interfaces::{Readable, Writeable};

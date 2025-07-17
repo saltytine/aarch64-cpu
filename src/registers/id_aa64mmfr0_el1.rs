@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! AArch64 Memory Model Feature Register 0 - EL1
-//!
 //! Provides information about the implemented memory model and memory
 //! management support in AArch64 state.
 

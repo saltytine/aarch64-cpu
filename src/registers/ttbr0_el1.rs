@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Translation Table Base Register 0 - EL1
-//!
 //! Holds the base address of the translation table for the initial lookup for stage 1 of the
 //! translation of an address from the lower VA range in the EL1&0 translation regime, and other
 //! information for this translation regime.

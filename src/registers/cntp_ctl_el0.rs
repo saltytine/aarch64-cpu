@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Counter-timer Physical Timer Control register - EL0
-//!
 //! Control register for the EL1 physical timer.
 
 use tock_registers::{

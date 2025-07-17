@@ -1,10 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
 macro_rules! __read_raw {
     ($width:ty, $asm_instr:tt, $asm_reg_name:tt, $asm_width:tt) => {
         /// Reads the raw bits of the CPU register.

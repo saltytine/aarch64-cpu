@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Ali Saidi <alisaidi@amazon.com>
-
-//! Virtualization Translation Control Register - EL2
-//!
 //! Provides control of stage2 translation of EL0/1
 
 use tock_registers::{

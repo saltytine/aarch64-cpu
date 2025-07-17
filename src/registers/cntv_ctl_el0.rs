@@ -1,13 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-//   - Gregor Reitzenstein <me@dequbed.space>
-
-//! Counter-timer Virtual Timer Control register - EL0
-//!
 //! Control register for the virtual timer
 
 use tock_registers::{

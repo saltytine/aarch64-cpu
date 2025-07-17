@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Translation Control Register - EL1
-//!
 //! The control register for stage 1 of the EL1&0 translation regime.
 
 use tock_registers::{

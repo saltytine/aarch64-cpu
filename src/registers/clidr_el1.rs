@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Valentin B. <valentin.be@protonmail.com>
-
-//! Cache Level ID Register - EL1
-//!
 //! Identifies the type of cache, or caches, that are implemented at each level and can
 //! be managed using the architected cache maintenance instructions that operate by set/way,
 //! up to a maximum of seven levels. Also identifies the Level of Coherence (LoC) and Level

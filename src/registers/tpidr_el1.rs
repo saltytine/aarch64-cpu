@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2020-2023 by the author(s)
-//
-// Author(s):
-//   - Erik Verbruggen <erikjv@me.com>
-
-//! Software Thread ID Register - EL1.
-//!
 //! Provides a location where software executing at EL1 can store thread identifying information,
 //! for OS management purposes.
 

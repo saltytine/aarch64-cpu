@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! System Control Register - EL1
-//!
 //! Provides top level control of the system, including its memory system, at EL1 and EL0.
 
 use tock_registers::{

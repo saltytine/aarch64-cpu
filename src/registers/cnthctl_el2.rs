@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Andre Richter <andre.o.richter@gmail.com>
-
-//! Counter-timer Hypervisor Control register - EL2
-//!
 //! Controls the generation of an event stream from the physical counter, and
 //! access from Non-secure EL1 to the physical counter and the Non-secure EL1
 //! physical timer.

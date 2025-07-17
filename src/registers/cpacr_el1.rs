@@ -1,12 +1,3 @@
-// SPDX-License-Identifier: Apache-2.0 OR MIT
-//
-// Copyright (c) 2018-2023 by the author(s)
-//
-// Author(s):
-//   - Valentin B. <valentin.be@protonmail.com>
-
-//! Architectural Feature Access Control Register - EL1
-//!
 //! Controls access to trace, SVE, and Advanced SIMD and floating-point functionality.
 
 use tock_registers::{
